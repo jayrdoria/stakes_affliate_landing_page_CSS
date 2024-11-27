@@ -17,7 +17,7 @@
   border: 0px solid #fff !important;
   position: absolute;
   border-radius: 0px !important;
-  height: calc(100vw * 3.8);
+  height: calc(100vw * 4);
   width: 60vw;
   top: 0;
   cursor: pointer;
@@ -64,7 +64,7 @@
     max-height: 100%;
     background-image: url(https://bnbstories.art/images/STAKES-SPECIAL-LANDING-PAGE-250-CAD-Mobile.png) !important;
     margin-top: 60px;
-    height: calc(100vw * 9.63);
+    height: calc(100vw * 14.1);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
     .aff-landing-content-wrapper
     .aff-landing-body
     .aff-landing-body-button {
-    height: calc(100vw * 9.6);
+    height: calc(100vw * 14.1);
     opacity: 0;
   }
 }
@@ -110,7 +110,7 @@
   .aff-landing {
     margin-top: 60px;
     max-width: 100vw;
-    height: calc(100vw * 4.27);
+    height: calc(100vw * 4.57);
     background-size: cover;
     background-position: center;
   }
@@ -125,7 +125,7 @@
     .aff-landing-body
     .aff-landing-body-button {
     opacity: 0;
-    height: calc(100vw * 3.8);
+    height: calc(100vw * 4);
   }
   /* Steps section responsive */
   .aff-landing .aff-landing-steps {
@@ -140,7 +140,7 @@
   }
   .aff-landing {
     max-width: 100vw;
-    height: calc(100vw * 4.27);
+    height: calc(100vw * 4.57);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
