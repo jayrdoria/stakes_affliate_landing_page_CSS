@@ -1,0 +1,156 @@
+<style > .aff-landing {
+  background-image: url(https://bnbstories.art/images/vikings/OCT17SLP-150-1000-100FS-WEB-FR-min.png);
+  background-position: center center;
+}
+.aff-landing .aff-landing-content-wrapper {
+  background-image: url("#") !important;
+}
+/* Button styling */
+.aff-landing
+  .aff-landing-content-wrapper
+  .aff-landing-body
+  .aff-landing-body-button {
+  opacity: 0;
+  color: #5bfd02;
+  background-image: url("https://i.imgur.com/hwg9vmz.png");
+  background-color: transparent !important;
+  border: 0px solid #fff !important;
+  position: absolute;
+  border-radius: 0px !important;
+  height: calc(100vw * 4.3);
+  width: 60vw;
+  top: 0;
+  cursor: pointer;
+  margin-top: 35%;
+}
+.aff-landing
+  .aff-landing-content-wrapper
+  .aff-landing-body
+  .aff-landing-body-button:hover {
+  transform: scale(1) !important;
+}
+.content-wrapper {
+  display: none;
+}
+.aff-landing .aff-landing-content-wrapper .aff-landing-logo {
+  display: none;
+}
+.aff-landing .aff-landing-content-wrapper .aff-landing-body span {
+  display: none !important;
+}
+/* Background steps image */
+.aff-landing .aff-landing-steps {
+  display: none;
+  background-image: url("https://i.imgur.com/u3nlOph.png");
+  min-height: 611px;
+  background-size: contain;
+  padding: 0px;
+}
+.aff-landing .aff-landing-footer {
+  display: none;
+}
+/* ------------------- Responsive Styles ------------------- */
+/* Mobile (up to 768px) */
+@media (max-width: 768px) {
+  .homepage-footer {
+    display: none;
+  }
+  #app {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  .aff-landing {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(https://bnbstories.art/images/vikings/OCT17SLP-150-1000-100FS-MOB-FR.png) !important;
+    margin-top: 60px;
+    height: calc(100vw * 14.4);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    margin-bottom: 0px;
+    padding: 0; /* Ensure no padding is causing issues */
+  }
+  .aff-landing .aff-landing-content-wrapper {
+    max-width: 393px;
+    height: 100vh;
+    background-size: contain;
+    margin-bottom: -17%;
+    width: auto;
+  }
+  /* Button responsive - adjust position and size */
+  .aff-landing
+    .aff-landing-content-wrapper
+    .aff-landing-body
+    .aff-landing-body-button {
+    opacity: 0;
+  }
+  /* Steps section responsive */
+  .aff-landing .aff-landing-steps {
+    background-image: url("https://i.imgur.com/2JEM3HR.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 27vh;
+  }
+  .aff-landing
+    .aff-landing-content-wrapper
+    .aff-landing-body
+    .aff-landing-body-button {
+    height: calc(100vw * 14.1);
+    opacity: 0;
+  }
+}
+/* Tablets (768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #app {
+    max-width: 100vw;
+  }
+  .aff-landing {
+    margin-top: 60px;
+    max-width: 100vw;
+    height: calc(100vw * 14.1);
+    background-size: cover;
+    background-position: center;
+  }
+  .aff-landing .aff-landing-content-wrapper {
+    max-width: 100vw;
+    height: auto;
+    background-size: cover;
+  }
+  /* Button responsive for tablet */
+  .aff-landing
+    .aff-landing-content-wrapper
+    .aff-landing-body
+    .aff-landing-body-button {
+    opacity: 0;
+    height: calc(100vw * 14.1);
+  }
+  /* Steps section responsive */
+  .aff-landing .aff-landing-steps {
+    background-size: cover;
+    min-height: 450px;
+  }
+}
+/* Large Desktop (Above 1024px) */
+@media (min-width: 1025px) {
+  #app {
+    max-width: 100vw;
+  }
+  .aff-landing {
+    max-width: 100vw;
+    height: calc(100vw * 4.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .aff-landing .aff-landing-content-wrapper {
+    max-width: 100vw;
+    background-size: cover;
+  }
+  .aff-landing .aff-landing-steps {
+    background-size: contain;
+    min-height: 611px;
+  }
+}
